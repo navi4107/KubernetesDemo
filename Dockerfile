@@ -13,8 +13,8 @@ WORKDIR /opt/tomcat
 #RUN curl -O https://www-eu.apache.org/dist/tomcat/tomcat-8/v8.5.40/bin/apache-tomcat-8.5.40.tar.gz
 RUN curl -O https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.5/bin/apache-tomcat-8.5.5.zip
 RUN yum install unzip -y
-RUN unzip apache-tomcat-8.5.40.tar.gz
-RUN mv apache-tomcat-8.5.40/* /opt/tomcat/.
+RUN unzip apache-tomcat-8.5.5.zip
+RUN mv apache-tomcat-8.5.5/* /opt/tomcat/.
 RUN yum -y install java
 RUN java -version
 
