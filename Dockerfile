@@ -19,7 +19,7 @@ RUN yum -y install java
 RUN java -version
 
 WORKDIR /opt/tomcat/webapps
-RUN chmod -R 777 
+RUN chmod -R 777 /opt/tomcat/webapps
 #RUN curl -O -L https://github.com/AKSarav/SampleWebApp/raw/master/dist/SampleWebApp.war
 ADD /target/KubernetesDemo-0.0.1-SNAPSHOT.war avinashapp.war
 EXPOSE 8080
