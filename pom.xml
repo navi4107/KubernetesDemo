@@ -12,7 +12,7 @@
 	<artifactId>KubernetesDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>KubernetesDemo</name>
-	<package>war</package>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
